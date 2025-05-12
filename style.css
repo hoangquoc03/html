@@ -2,57 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: pointer;
 }
 a{
     text-decoration: none;
-    color: black;
 }
 .mybox{
-    width: 400px;
-    background-color: rgb(176, 185, 199);
+    border: 1px solid black;
+    width: 700px;
 }
-.img{
-    width: 360px;
+.container{
+    padding: 20px;
 }
 h2{
-    color: rgb(7, 121, 214);
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
 }
-
-.boder{
-    padding: 20px;
-    border-top: 2px solid blue;
-}
-.nav ul{
-    list-style: none;
+.bottom{
     display: flex;
-    font-size: 20px;
-    margin-bottom: 15px;
 }
-.nav li a{
-    padding: 0 10px;    
-}
-.nav li .choose.firstfirst{
-    padding-left: 0;
-}
-.nav li .choose {
-    border-right: 1px solid black;
-}
-.titel{
-    padding: 20px 0;
-    font-size: 20px;
+h4{
+    padding: 15px 0;
 }
 .notice{
-    color: rgb(31, 30, 30);
-    padding-bottom: 20px;
-    font-size: 18px;
+    border-bottom: 1px dashed black;
 }
-.choosen ul {
-    list-style-position: inside;
-    padding-left: 0;
-    margin-left: 0;
+.img{
+    width: 385px;
+    margin-top: 15px;
 }
-
-.choosen li {
-    margin-bottom: 10px;
+.right{
+    padding-left: 30px;
+}    
+h3{
+    margin-top: 10px;
+    font-size: 23px;
 }
