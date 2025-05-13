@@ -10,31 +10,31 @@ a{
 .mybox{
     border: 1px solid black;
     width: 700px;
+    background: rgb(121, 221, 121);
 }
 .container{
-    padding: 20px;
-}
-h2{
-    padding-bottom: 15px;
-    border-bottom: 1px solid black;
+    padding: 10px;
 }
 .bottom{
     display: flex;
 }
-h4{
-    padding: 15px 0;
-}
-.notice{
-    border-bottom: 1px dashed black;
-}
 .img{
-    width: 385px;
-    margin-top: 15px;
+    width: 200px;
 }
-.right{
-    padding-left: 30px;
-}    
 h3{
+    color: rgb(2, 44, 2);
     margin-top: 10px;
-    font-size: 23px;
+    margin-bottom: 20px;
+}
+.item{
+    padding: 10px;
+}
+
+h4{
+    font-size: 21px;
+}
+.item.item2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    
 }
