@@ -1,47 +1,61 @@
 .skip-link {
   position: absolute;
-  top: -40px;
-  left: 0;
-  background: #000;
-  color: #fff;
-  padding: 8px;
-  z-index: 100;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 .skip-link:focus {
-  top: 0;
+  position: static;
+  width: auto;
+  height: auto;
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  z-index: 1000;
 }
-
 
 
 nav {
-  display: inline-block;
-  width: 80%;
-}
-
-nav img {
-  width: 10%;
-}
-
-
-.grid {
-  display: grid;
-  grid-template-columns: 40% 40%;
-  justify-content: space-around;
-  align-items: start;
-  row-gap: 20px;
-}
-
-.grid img {
-  width: 100%;
-}
-
-
-.flex {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover {
+  background-color: #555;
+  border-radius: 5px;
 }
 
-.flex img {
-  width: 30%;
+
+img {
+  border: 3px solid #ccc;
+  padding: 5px;
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+.gallery img:nth-child(even) {
+  border-radius: 50%;
 }
