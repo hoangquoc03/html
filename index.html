@@ -1,183 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Giải phương trình</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <header class="header">
-    <div class="container">
-      <div class="body">
-        <img src="./img/logo.jpg" alt="logo" class="logo">
-        <nav class="menu">
-          <ul>
-            <li>
-              <a href="#!" class="xahoi">XÃ HỘI</a>
-            </li>
-            <li>
-              <a href="#!">CHỨNG KHOÁN</a>
-            </li>
-            <li>
-              <a href="#!">BẤT ĐỘNG SẢN</a>
-            </li>
-            <li>
-              <a href="#!">DOANH NGHIỆP</a>
-            </li>
-            <li>
-              <a href="#!">NGÂN HÀNG</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="bottom">
-          <div class="bottom__left">
-            <h3>Fed tăng lãi suất thêm 0,75% phát tín hiệu sẽ giảm tốc độ thắt chặt chính sách tiền tệ</h3>
-            <div class="item">
-              <p class="lobel">Lãi xuất chuẩn của NHTW Mỹ đang ở mức cao nhất kể từ tháng 1,2018</p>
-              <img src="./img/download (1).jpg" alt="" class="img">
-            </div>
-            <div class="chossen">
-              <div class="item1">
-                <img src="./img/download (1).jpg" alt="" class="img1">
-                <p class="titel"> Xuất hiện một tỉnh đạt tất cả các chỉ tiêu kinh tế - xã hội đề ra năm 2022</p>
-              </div>
-              <div class="item1">
-                <img src="./img/download (1).jpg" alt="" class="img1">
-                <p class="titel"> Xuất hiện một tỉnh đạt tất cả các chỉ tiêu kinh tế - xã hội đề ra năm 2022</p>
-              </div>
-              <div class="item1">
-                <img src="./img/download (1).jpg" alt="" class="img1">
-                <p class="titel"> Xuất hiện một tỉnh đạt tất cả các chỉ tiêu kinh tế - xã hội đề ra năm 2022</p>
-              </div>
-            </div>
-          </div>
-          <div class="bottom__right">
-            <div class="search">
-              <div class="search__input">
-                <input type="text" class="search-box" placeholder="Gõ mã CK hoặc tên công ty" class="input">
-                <button class="search-button"> Tìm kiếm</button>
-              </div>
-              <div class="radio-group">
-                <label for=""><input type="radio" name="option">Công ty</label>
-                <label for=""><input type="radio" name="option">Tin tức</label>
-                <label for=""><input type="radio" name="option">Lãnh đạo</label>
-              </div>
-            </div>
-            <div class="event-box">
-                <p class="event-title">LỊCH SỰ KIỆN</p>
-                  <div class="event-header">
-                    <p class="event-date">03/11</p>
-                    <p class="event-topic">LỊCH HỌP ĐẠI HỘI CỔ ĐÔNG</p>
-                  </div>
-
-                  <div class="event-row rom1">
-                    <p class="event-code ">TDT</p>
-                    <p class="event-desc">Giao dịch đầu tiên 2.559.802 cổ phiếu niêm yết bổ sung</p>
-                  </div>
-                  <div class="event-row">
-                    <p class="event-code">FTS</p>
-                    <p class="event-desc">Giao dịch đầu tiên 2.559.802 cổ phiếu niêm yết bổ sung</p>
-                  </div>
-                  <div class="event-row">
-                    <p class="event-code">RCC</p>
-                    <p class="event-desc">Giao dịch đầu tiên 2.559.802 cổ phiếu niêm yết bổ sung</p>
-                  </div>
-                  <div class="event-row">
-                    <p class="event-code">TDT</p>
-                    <p class="event-desc">Lấy ý kiến cổ đông bằng văn bản</p>
-                  </div>
-                  <div class="event-row">
-                    <p class="event-code">KHW</p>
-                    <p class="event-desc">Lấy ý kiến cổ đông bằng văn bản</p>
-                  </div>
-                  <div class="event-row">
-                    <p class="event-code">TDT</p>
-                    <p class="event-desc">Lấy ý kiến cổ đông bằng văn bản</p>
-                  </div>
-            </div>
-          </div>
+    <div class="gpt-box">
+        <div>
+            <label for="a">Hệ số a <input type="number" id="a"></label><br>
+            <label for="b">Hệ số b <input type="number" id="b"></label><br>
+            <input type="button" value="Giải phương trình" onclick="solveEquation()">
         </div>
-      </div>
+        <div class="result" id="result"></div>
     </div>
-   </header>
-   <main class="main">
-    <div class="container">
-      <div class="body">
-        <p class="main__title">Gia đình <span class="main__span">là nhất</span></p>
-        <div class="main__item">
 
-          <div class="main__item1">
-            <div class="discount-badge">19%</div>
-            <div class="main__img"><img src="./img/may.jpg" alt="" class="may"></div>
-            <div class="main__info">
-              <p class="main__desc">Máy giặt lồng ngang Aqua Inverter 9Kg AQD-D900F.S</p>
-              <div class="main_price">6.490.000đ</div>
-              <div class="main_old--price">10.690.000đ</div>
-              <button class="main__button">TÌM HIỂU NGAY</button>
-            </div>
-          </div>
-
-          <div class="main__item1">
-            <div class="discount-badge">19%</div>
-            <div class="main__img"><img src="./img/may.jpg" alt="" class="may"></div>
-            <div class="main__info">
-              <p class="main__desc">Máy giặt lồng ngang Aqua Inverter 9Kg AQD-D900F.S</p>
-              <div class="main_price">6.490.000đ</div>
-              <div class="main_old--price">10.690.000đ</div>
-              <button class="main__button">TÌM HIỂU NGAY</button>
-            </div>
-          </div>
-           
-          <div class="main__item1">
-            <div class="discount-badge">19%</div>
-            <div class="main__img"><img src="./img/may.jpg" alt="" class="may"></div>
-            <div class="main__info">
-              <p class="main__desc">Máy giặt lồng ngang Aqua Inverter 9Kg AQD-D900F.S</p>
-              <div class="main_price">6.490.000đ</div>
-              <div class="main_old--price">10.690.000đ</div>
-              <button class="main__button">TÌM HIỂU NGAY</button>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-   </main>
-   <footer class="footer">
-    <div class="container">
-      <div class="body">
-        <div class="footer__item">
-          <div class="footer__title">KINH TẾ SỐ</div>
-          <img src="./img/download (1).jpg" alt="" class="footer__img">
-          <div class="footer__info">
-            <div class="footer__code">Khu công nghệ cao hút hơn 4 tỷ USD vốn đầu tư,tập hợp toàn ông lớn ở Hà Nội</div>
-            <div class="footer__desc">Facebook cập nhật "Chế độ chuyên nghiệp" tính năng kiếm tiền mới cho người dùng Việt</div>
-            <div class="footer__desc">Facebook cập nhật "Chế độ chuyên nghiệp" tính năng kiếm tiền mới cho người dùng Việt</div>
-          </div>
-        </div>
-
-        <div class="footer__item">
-          <div class="footer__title">KINH TẾ SỐ</div>
-          <img src="./img/download (1).jpg" alt="" class="footer__img">
-          <div class="footer__info">
-            <div class="footer__code">Khu công nghệ cao hút hơn 4 tỷ USD vốn đầu tư,tập hợp toàn ông lớn ở Hà Nội</div>
-            <div class="footer__desc">Facebook cập nhật "Chế độ chuyên nghiệp" tính năng kiếm tiền mới cho người dùng Việt</div>
-            <div class="footer__desc">Facebook cập nhật "Chế độ chuyên nghiệp" tính năng kiếm tiền mới cho người dùng Việt</div>
-          </div>
-        </div>
-
-        <div class="footer__item">
-          <div class="footer__title">KINH TẾ SỐ</div>
-          <img src="./img/download (1).jpg" alt="" class="footer__img">
-          <div class="footer__info">
-            <div class="footer__code">Khu công nghệ cao hút hơn 4 tỷ USD vốn đầu tư,tập hợp toàn ông lớn ở Hà Nội</div>
-            <div class="footer__desc">Facebook cập nhật "Chế độ chuyên nghiệp" tính năng kiếm tiền mới cho người dùng Việt</div>
-            <div class="footer__desc">Facebook cập nhật "Chế độ chuyên nghiệp" tính năng kiếm tiền mới cho người dùng Việt</div>
-          </div>
-        </div>
-      </div>
-    </div>
-   </footer>
+    <!-- js -->
+    <script src="main.js"></script>
 </body>
 </html>
